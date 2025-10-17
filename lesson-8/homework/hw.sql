@@ -35,7 +35,7 @@ count(customerid) as totalcustomers
 from customers 
 group by country
 
-elect * from  orders
+select * from  orders
 select max(quantity) as maxquantity
 from orders
 
